@@ -1,14 +1,139 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lopster</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <span class="cn">
+<html lang="es-ES">
+    <head>
+        <title>Lopster</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>            
+        
+        <script>
+            $(document).ready(function() {
+                $(window).scroll(function() {
+                $('.coco').each(function (i) {
+                    var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                    var bottom_of_window = $(window).scrollTop() + $(window).height();
+                
+                    if (bottom_of_window > bottom_of_object ) {
+                        $(this).animate({'opacity':'1', "margin-left": '10px'},2000)
+                    }
+                })
+
+                $(".cn4").each(function (i) {
+
+                    var bo = $(this).offset().top + $(this).outerHeight();
+                    var co = $(window).scrollTop() + $(window).height();
+
+                    if ( co > bo) {
+                        $(this).animate({'opacity': '1', "margin-top": '20px'},2500)
+                    } 
+                })
+
+                
+            })
+            $('#uas').click(function(){
+            $("html, body").animate({ scrollTop:1430 }, 1000)
+        
+        })
+
+        $("#loli").click(function() {
+            $("html, body").animate({ scrollTop:680}, 1000)
+        })
+        $(window).scroll(function() {
+  if ($(this).scrollTop() > 100) {
+    $('#btn-top').fadeIn();
+  } else {
+    $('#btn-top').fadeOut();
+  }
+});
+
+$('#btn-top').click(function() {
+  $('html, body').animate({scrollTop : 0},800);
+  return false;
+});
+
+var DarkMode = false;
+
+$("#klkm").click(function() {
+    DarkMode = !DarkMode;
+
+    if (DarkMode) {
+        $('html, body').css('background-color', 'blue');
+        $('html, body').css('color', 'white');
+    }else {
+        $('html, body').css('background-color', 'white');
+        $('html, body').css('color', 'black');
+    }
+
+    
+    });
+    var primeraImagen = true;
+
+    $("#klkm").click(function() {
+    if (primeraImagen) {
+      $("#lunaa").attr("src", "soleado.png");
+      primeraImagen = false;
+    } else {
+      $("#lunaa").attr("src", "luna (1).png");
+      primeraImagen = true;
+}
+    })
+            
+            })  
+
+        </script>
+
+
+
+
+
+        <div class="lo">Lopster <img src="img/hojas-tropicales.png" alt="" width="15px" height="15px"></div>
+        <span>
+        <ul>
+            <li id="lo1"><a id="loli" href="#">¿Qué es?</a></li>
+            <li id="lo2"><a id="uas"  href="#">Funciones</a></li>
+            <li id="lo3"><a href="#">Descargar</a></li>
+            <li id="lo4"><a href="#">Ayuda</a></li>
+            <button id="klkm"> <img id="lunaa" src="img/luna (1).png" alt="" width="15px" height="15px"></button>
+            <span class="ch">
+            <ul id="or1">
+            
+            <li id="lo5"><a href="#">Más información</a></li>
+            <li id="lo6"><a id="bo-is" href="inicio-sesion.html" target="_blank">Iniciar sesión</a></li>
+            <li id="lo7"><a id="bo-il" href="app-index.html">Ir a Lopster</a></li>
+            </ul>
+            </span>
+        </ul>
+        </span>
+        <center>
+        <div id="imagenes">
+            <img id="kd" src="img/kids.jpg" alt="" width="700px" height="400px">
+        </div>
+        </center>
+
+        <p id="qu">DESCUBRE<br>
+        CREA<br>
+        COMPARTE</p>
+
+        <div class="flechas">
+            <div id="izq">
+                <button id="flec-der"> <img src="img/flecha-correcta - copia.png" alt="" width="20px" height="20px"> </button>
+            </div>
+
+            <div id="drc">
+            <button id="flec-izq"> <img src="img/flecha-correcta.png" alt="" width="20px" height="20px"></button>
+            </div>
+        </div>
+
+        <Center>
+            <div class="botones">
+        <button id="img1"></button>
+        <button id="img2"></button>
+            </div>
+        </Center>
+        
+    </head>
+
+    <body>
+        <span class="cn">
         <div class="txt1">
             <div id="p-s"><strong>¿Qué es?</strong></div>
             <p id="p-x">Lopster es una herramienta de desarrollo personalizado capaz<br> de realizar trabajos expléndidos con cientas de animaciones, diapositivas...<br>Adentrate en este maravilloso mundo para comprender los valores<br> de la informática.</p>
@@ -22,9 +147,112 @@
         </span>
 
         <div class="interline">
-            <div id="inter">
-            <img id="flecha-abajo" src="img/flecha-correcta - copia (2).png" alt="" width="20px" height="20px"></div>
+        <div id="inter">
+        <img id="flecha-abajo" src="img/flecha-correcta - copia (2).png" alt="" width="20px" height="20px"></div>
+        </div>
+
+        <span class="cn3">
+            <div class="coco">
+            <div id="txt2">
+                <p id="we">Trabajar ante esta gran diversidad de vistas<br> en las multitudinarias empresas que se encuentran<br> en el mundo. No hay mejor lugar que este, inscribite y<br> <a id="unit" href="#">Únete a nosotros</a>. Nos situamos en la gran mayoría de los paises de Europa y de América.</p></div>
+                <img id="bs" src="img/bsq.jpeg" alt="" width="600px" height="400px">
+                <div class="pca">
+                    <a id="pca1" href="#">¡Participa ya!</a>
+                    <div id="rgt"><a id="rgt1" href="#">Registrate por 0$</a></div>
+                </div>
             </div>
-    
+        </span>
+        
+        <span class="cn4">
+            <div id="lin8"><strong>Establece tu plan de trabajo</strong></div>
+            <div id="txt3">
+                <section>
+                    <img id="tree1" src="img/arbol4.jpg" alt="">
+                    <img id="tree2" src="img/tree.jpg" alt="">
+                    <img id="tree3" src="img/tree3.jpg" alt="">
+                </section>
+                <button id="btn1">Elemento 1</button> <button id="btn2">Elemento 2</button> <button id="btn3">Elemento 3</button>
+
+
+                <div id="arbol1"><p id="par1"><strong>Descubre un nuevo entorno<br></strong><br>Los trabajadores de Lapster poseen gran<br> capacidad cognitiva al igual que compañerismo y<br> empatía, asi que no sufras por eso. Al principio<br> parece algo confuso pero uno se acaba<br>acostumbrando asi que pasalo bien<br> si decides entrar.</p></div>
+                <div id="arbol1-1"><a id="pro1" href="#">Formate</a></div>
+
+                <div id="arbol2"><p id="par2"><strong>Intenta cambiar el futuro<br></strong><br>Intentamos cambiar el mundo para facilitar es estilo de vida de miles de millones personas. Cuantos más mejor, las nuevas tecnologías avanzan muy rápido por lo que necesitamos gente formada para pertenecer al top del mercado. </p></div>
+                <div id="arbol2-2"><a id="pro2" href="#">Precios</a></div>
+
+                <div id="arbol3"><p id="par3"><strong>Comprende las vivencias<br></strong><br>Una vez seas admitido como cualquier función dentro de la empresa seras redirigido directamente con el comunity manager de tu seccion para aclarar contratos,tiempos... Puede llevar varias horas, se podra realizar de manera online o presencial.</p></div>
+                <div id="arbol3-3"><a id="pro3" href="#">Disfruta</a></div>
+            </div>
+        </span>
+
+        <table class="funciones">
+            <tr>
+                <th id="fn1">Funciones</th>
+                <th id="vs1">Ventajas</th>
+                <th id="ps1">Precios</th>    
+            </tr>
+
+            <tr>
+                <td id="fn2">Conductor</td>
+                <td id="vs2">Velocidad</td>
+                <td id="ps2">50$ / hour</td>
+            </tr>
+
+            <tr>
+                <td id="fn3">Ingeniero de<br> software</td>
+                <td id="vs3">Conocimientos</td>
+                <td id="ps3">120k / year</td>
+            </tr>
+
+            <tr>
+                <td id="fn4">Asistente</td>
+                <td id="vs4">Buen habla</td>
+                <td id="ps4">6k / month</td>
+            </tr>
+
+            <tr>
+                <td id="fn5">Google Cloud</td>
+                <td id="vs5">Seriedad</td>
+                <td id="ps5">150k / year</td>
+            </tr>
+
+
+
+
+
+        </table>
+
+
+<div class="ele">
+    <div id="ult"><strong>Aprovecha y apoyanos para formar un futuro más diverso</strong></div>
+    <div id="lo22">Lopster <img src="img/hojas-tropicales.png" alt="" width="15px" height="15px"></div>
+
+</div>
+
+
+
+
+        
+<div id="btn-top">
+    <button id="cha">
+        <img src="img/flecha-correcta - copia - copia.png" alt="" width="20px" height="20px">
+    </button>
+  </div>
+  
+<script src="main.js"></script>
+
+
 </body>
+
+<footer>
+    <span class="foot1">
+        <ul id="li99">
+            <li id="al">Contactos</li>
+            <li id="al">p</li>
+        </ul>
+    </span>
+</footer>
+
+
 </html>
+
