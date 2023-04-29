@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <title>Iniciar sesión</title>
+        <link rel="stylesheet" href="estilo.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#vercontr').click(function(){
+                    if ($("#vercontr").is(':checked')) {
+                     $("#txtcontra").attr('type', 'text');
+                    } else {
+                        $('#txtcontra').attr('type', 'password');
+                    }   
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="iniciar-sesion">
+            <div id="correo">
+                Correo electrónico
+            </div>
+            <div id="txtcorr">
+                <input id="corr" type="email" name="email" placeholder="Introduce tu correo">
+            </div>
+            <div id="contra">
+                Contraseña
+            </div>
+            <div id="movecontra">
+                <input id="txtcontra" type="password" name="contraseña" placeholder="Contraseña" pattern="[a-z]*">
+            </div>
+            <div id="ver">
+                <input type="checkbox" id="vercontr">
+                    
+            </div>
+            <div id="check1">
+                <input id="pol1" type="checkbox" name="pol">
+            </div>
+            <div id="pol2">
+                <a id="pol-1" href="#">Política de privacidad</a>
+            </div>
+            <div id="check2">
+                <input type="checkbox" name="ter">
+            </div>
+            <div id="ter1">
+                Acepto los <a id="ter-1" href="#">Términos</a>.
+            </div>
+            <div id="posi-1">
+                ¿No has iniciado sesión?
+            </div>
+            <div id="regis">
+                <a id="reg" href="#">Regístrate</a>
+            </div>
+            <div id="ini">
+                <button type="submit" id="ini-1">Iniciar sesion</button>
+            </div>
+        </div>
+        <script src="main2.js"></script>
+    </body>
+</html>

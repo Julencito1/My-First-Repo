@@ -1,0 +1,532 @@
+.ul1 {
+    list-style-type: none;
+}
+
+#hola4 {
+    width: 80px;
+    display: inline-block;
+}
+
+#inp {
+    width: 300px;
+    border: 1px solid rgba(167, 160, 160, 0.236);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+#hola4:nth-child(2) {
+    margin-left: 700px;
+}
+
+#hola4:nth-child(3) {
+    margin-left: 640px;
+}
+
+#hola4:nth-child(6) {
+    position: relative;
+    top: 10px;
+}
+
+#hola4:nth-child(5) {
+    position: relative;
+    top: 8px;
+}
+
+#hola4:nth-child(4) {
+    position: relative;
+    top: 8px;
+}
+ 
+#hola4:nth-child(3) {
+    position: relative;
+    top: 8px;
+}
+
+
+#lop {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.ul2 {
+    list-style-type: none;
+}
+
+
+.material-symbols-outlined {
+    display: inline-flex;
+}
+
+#cc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+#btn1 {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    padding:  5px ;
+}
+
+#noti {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+#btn2 {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#gal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+#btn3 {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#comp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+#btn4 {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#apo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+#btn5 {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#sug {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+
+#btn6 {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#hola9:nth-child(1) {
+    margin-top: 60px;
+}
+
+#hola9:nth-child(2) {
+    margin-top: 60px;
+}
+
+#hola9:nth-child(3) {
+    margin-top: 60px;
+}
+
+#hola9:nth-child(4) {
+    margin-top: 60px;
+}
+
+#hola9:nth-child(5) {
+    margin-top: 60px;
+}
+
+#hola10:nth-child(6) {
+    margin-top: 60px;
+}
+
+#btn1:hover {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(167, 160, 160, 0.236);
+}
+
+#btn2:hover {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(167, 160, 160, 0.236);
+}
+
+#btn3:hover {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(167, 160, 160, 0.236);
+}
+
+#btn4:hover {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(167, 160, 160, 0.236);
+}
+
+#btn5:hover {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(167, 160, 160, 0.236);
+}
+
+#btn6:hover {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(167, 160, 160, 0.236);
+}
+
+.sep {
+    margin-top: 40px;
+    width: 160px;
+    background-color: rgba(167, 160, 160, 0.236);
+    height: 1px;
+}
+
+.copy {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: gray;
+}
+
+main {
+    position: absolute;
+    left: 650px;
+    top: 200px;
+}
+
+#inicio-h {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 365px;
+}
+
+#inicio-t {
+    text-align: center;
+    margin-left: 30px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(167, 160, 160);
+}
+
+#inicio-b {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 380px;
+    padding: 15px;
+    border: 0px;
+    cursor: pointer;
+}
+
+#inicio-tt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.trabajo1 {
+    margin-left: -300px;
+    margin-top: -50px;
+    display: none;
+}
+
+#inicio-trabajo1 {
+    width: 170px;
+    height: 150px;
+    cursor: pointer;
+    border: 0px;
+    animation-name: trabajo1;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    background-color: rgba(167, 160, 160, 0.236);
+    
+}
+
+@keyframes trabajo1 {
+    0% {
+        border: 1.5px solid red;
+    }
+    25% {
+        border: 1.5px solid blueviolet;
+    }
+    50% {
+        border: 1.5px solid blue;
+    }
+    75% {
+        border: 1.5px solid green;
+    }
+    100% {
+        border: 1.5px solid burlywood;
+    }
+}
+
+#inicio-trabajot {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.comentarios {
+    display: none;
+    position: fixed;
+    bottom: 1;
+    right: 1;
+}
+
+.coments {
+    border-radius: 20px;
+    margin-left: 800px;
+    margin-top: -140px;
+    width: 450px;
+    height: 400px;
+    background-color: rgba(167, 160, 160, 0.236);
+}
+
+#title-com {
+    position: relative;
+    top: -20px;
+    left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#realt {
+    position: relative;
+    top: 130px;
+    left: -40px;
+    height: 150px;
+    width: 300px;
+}
+
+#submit {
+    position: relative;
+    top: 180px;
+    border: 0px;
+    background-color: #4285F4;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+    left: 340px;
+    cursor: pointer;
+}
+
+.nuevac {
+    display: none;
+    margin-top: -580px;
+    margin-left: -300px;
+    border-radius: 2px;
+}
+
+.carpeta1 {
+    background-color: darkgray;
+    width: 250px;
+    height: 90px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#textod-im {
+    margin-left: 10px;
+    display: block;
+}
+
+#crearcarpeta {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#submit2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    background-color: #4285F4;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+#t-carp {
+    border-radius: 5px;
+}
+
+#lup {
+    position: relative;
+    z-index: 99;
+    top: 9px;
+    left: 280px;
+    background-color: transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    border-left: 1px  solid rgba(0, 0, 0, 0.359);
+}
+
+#inp {
+    position: relative;
+    top: 41px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1919px) {
+
+
+    #hola4 {
+        width: 50px;
+    }
+
+    #hola4:nth-child(2) {
+        margin-left: 240px;
+    }
+
+    #inicio {
+        margin-left: -300px;
+        width: 800px;
+    }
+
+    #inicio-h {
+        margin-left: 10px;
+    }
+
+    #inicio-t {
+        margin-left: -280px;
+    }
+
+    #inicio-b {
+        margin-left: 20px;
+    }
+
+    .comentarios {
+        display: none;
+        position: fixed;
+        bottom: 1;
+        right: 1;
+    }
+
+    .coments {
+        margin-left: 360px;
+        margin-top: -70px;
+        width: 300px;
+        height: 300px;
+    }
+
+    #title-com {
+        position: relative;
+        top: -25px;
+    }
+    #realt {
+        position: relative;
+        width: 190px;
+        top: 90px;
+    }
+
+    #submit {
+        position: relative;
+        left: 200px;
+        top: 95px;
+    }
+
+    #inp {
+        position: relative;
+        top: 41px;
+    }
+    
+    #lup {
+        position: relative;
+        z-index: 99;
+        top: 9px;
+        left: 280px;
+        background-color: transparent;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: 0px;
+        cursor: pointer;
+        border-left: 1px  solid rgba(0, 0, 0, 0.359);
+    }
+
+    
+
+}
